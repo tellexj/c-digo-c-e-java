@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">index</a>
+        <a href="tinkercad.html">tinkercad</a>
+        <a href="C++.html">C++</a>
+        <a href="java.html">Java</a>
+       </nav> 
+       <br>
+       <h1> linguagem de programação Java</h1>
+       <br>
+       <p> Java é uma linguagem de programação orientada a objeto, multiplataforma que é executada em bilhões de dispositivos em todo o mundo. Ele capacita aplicativos, sistemas operacionais de smartphones, software empresarial e muitos programas conhecidos.</p>
+       <br>
+       <h1>print de tela de um código Java </h1>
+       <br>
+       <div> <img src="codigojava2.png" alt="codigojava2">
+        <br>
+        <small> Fonte: O autor</small></div>
+        <br>
+        <h1> exemplo de código Java (texto) </h1>
+        <br>
+        <pre>import java.util.Scanner;
+
+            public class programa04 {
+                public static void main(String[] args) {
+                    Scanner sc = new Scanner(System.in);
+            
+                    int pot1 = 0, pot2 = 0, res = 0;
+                    boolean led = false;
+            
+                    System.out.print("Digite o valor do sensor potenciômetro 1: ");
+                    pot1 = sc.nextInt();
+                    System.out.print("Digite o valor do sensor potenciômetro 2: ");
+                    pot2 = sc.nextInt();
+            
+                    if(pot1 > pot2){
+                        res += pot1 + pot2;
+                        System.out.printf("A resposta é: %d ", res);
+                        led = true;
+                    }else {
+                        led = false;
+                    }
+                    sc.close();
+            
+                }
+            }</pre>
+</body>
+</html>
